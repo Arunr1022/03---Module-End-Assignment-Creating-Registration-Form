@@ -27,7 +27,7 @@ function SigninPage() {
         <>
             <form className="signinpage" onSubmit={handleSubmission}>
                 <div className="mb-3">
-                    <label htmlFor="InputEmail1" className="form-label">Email address : </label>
+                    <label htmlFor="InputEmail1" className="form-label" >Email address : </label>
                     <input type="text" className="form-control" id="InputEmail1" value={email} onChange={(e) => setEmail(e.target.value)}></input>
                 </div>
                 <div className="mb-3">

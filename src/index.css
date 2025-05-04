@@ -1,0 +1,32 @@
+body{
+    background-image: url('src/Images/vackground-com-0F2pC8_DwvM-unsplash.jpg');
+    background-size: cover;
+}
+
+.signinpage{
+    width: 25%;
+    margin-left: 38%;
+    margin-top: 40px;
+
+}
+
+
+.Signuppage{
+    width: 60%;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#Inputfirstname, #Inputlastname, #InputCity, #InputState, #InputPinCode, #InputCountry{
+    height: 35px;
+    width: 30%;
+}
+
+.SignupPageWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
